@@ -13,10 +13,9 @@ function myFunction() {
         // change the value of the h2 below the button to have the text contents of 
         // the textbox
     document.getElementById("demo").innerHTML = entryinput;
- }
+}
 
 var object = document.getElementById("entrybutton");
 object.addEventListener("click", myFunction);
-button.addEventListener("click", myFunction);
 }
 window.addEventListener('load', init);
