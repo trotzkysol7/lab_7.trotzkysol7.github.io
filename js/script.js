@@ -15,6 +15,5 @@ function init() {
     // Attach the click event listener to the button
     button.addEventListener("click", myFunction);
 }
-
 // Run the init function once the page loads
 window.addEventListener('load', init);
