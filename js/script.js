@@ -15,7 +15,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = entryinput;
 }
 
-var object = document.getElementById("entrybutton");
-object.addEventListener("click", myFunction);
+var button = document.getElementById("entrybutton");
+button.addEventListener("click", myFunction);
 }
 window.addEventListener('load', init);
