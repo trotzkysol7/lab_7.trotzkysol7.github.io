@@ -15,7 +15,7 @@ function init(){
         alert("Julia Barbosa:" + entryinput);
         // change the value of the h2 below the button to have the text contents of 
         // the textbox
-    document.getElementById("demo").innerHTML = entryinput;
+    document.getElementById("textoutput").innerHTML = entryinput;
     }
 
     button.addEventListener("click", myFunction);
