@@ -1,19 +1,21 @@
-function init() {
+function init(){
+// add your javascript code below
+// Create a variable to store button object content
     var button = document.getElementById("entrybutton");
-
-    function myFunction() {
-        // Get the value typed into the textbox
-        var entryinput = document.getElementById("textbox").value;
-        
-        // Display the alert message
-        alert("Julia Barbosa: " + entryinput);
-        
-        // Change the contents of the h2 element
-        document.getElementById("demo").innerHTML = entryinput;
-    }
-
-    // Attach the click event listener to the button
-    button.addEventListener("click", myFunction);
+    // Create a function for the addEventListener (myFunction) {
+//function addEventListener(myFunction) {
+    // Create a variable to store what the user types into the textbox
+//}
+function myFunction() {
+     // Display in the alert box as your new message.  Watch video.
+    var entryinput = document.getElementById("textbox").value;
+    alert("Julia Barbosa:" + entryinput);
+        // change the value of the h2 below the button to have the text contents of 
+        // the textbox
+    document.getElementById("demo").innerHTML = entryinput;
 }
-// Run the init function once the page loads
+
+var object = document.getElementById("entrybutton");
+object.addEventListener("click", myFunction);
+}
 window.addEventListener('load', init);
