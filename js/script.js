@@ -1,7 +1,7 @@
 function init(){
 // add your javascript code below
 // Create a variable to store button object content
-    var button = document.getElementById("entrybutton");
+  var button = document.getElementById("entrybutton");
     // Create a function for the addEventListener (myFunction) {
 
     // Create a variable to store what the user types into the textbox
@@ -9,16 +9,16 @@ function init(){
     // change the value of the h2 below the button to have the text contents of 
     // the textbox
 
-    function myFunction() {
+  function myFunction() {
      // Display in the alert box as your new message.  Watch video.
-      var entryinput = document.getElementById("entryinput").value;
-      alert("Julia Barbosa: " + entryinput);
-        // change the value of the h2 below the button to have the text contents of 
-        // the textbox
-      document.getElementById("textoutput").textContent = entryinput;
+    var entryinput = document.getElementById("entryinput").value;
+    alert("Julia Barbosa: " + entryinput);
+    // change the value of the h2 below the button to have the text contents of 
+    // the textbox
+    document.getElementById("textoutput").textContent = entryinput;
     }
 
     button.addEventListener("click", myFunction);
-}
 
+}
 window.addEventListener('load', init);
