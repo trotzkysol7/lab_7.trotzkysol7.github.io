@@ -11,7 +11,7 @@ function init(){
 
     function myFunction() {
      // Display in the alert box as your new message.  Watch video.
-        var entryinput = document.getElementById("textbox").value;
+        var entryinput = document.getElementById("entryinput").value;
         alert("Julia Barbosa:" + entryinput);
         // change the value of the h2 below the button to have the text contents of 
         // the textbox
